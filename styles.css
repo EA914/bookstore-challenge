@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+	background-color: black;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.store {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+	background-color: white;
+}
+
+.store-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.store-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.store-info a {
+    text-decoration: none;
+    color: #333;
+}
+
+.store-info a:hover {
+    text-decoration: underline;
+}
+
+.establishment-date {
+    position: absolute;
+    bottom: 1px;
+    left: 5px;
+    font-size: 15px;
+    color: #666;
+    font-style: bold;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.star {
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+	color: #E2C100;
+}
+
+.books {
+    margin-top: 10px;
+}
+
+.book {
+    margin-bottom: 5px;
+}
+
+.flag {
+
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+
+.flag:hover {
+    transform:scale(1.3,1.3);
+}
+
+}
